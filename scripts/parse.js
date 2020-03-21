@@ -60,6 +60,7 @@ function renderTheStuff(data) {
 });
 }
 
+// Handle sidebar
 function slide() {
   document.getElementsByClassName("slide-out")[0].classList.add("slidden");
 }

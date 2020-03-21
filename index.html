@@ -9,34 +9,38 @@
 </head>
 
 <body>
-  <div class = "slide-out">
+  <div class="slide-out">
     <h2>This is a pandemic.</h2><br>
-    <p>CDC is responding to an outbreak of respiratory illness caused by a novel (new) coronavirus. The outbreak first started in Wuhan, China, but cases have been identified in a growing number of other locations internationally, including the United States. In addition to CDC, many public health laboratories are now testing for the virus that causes COVID-19.<br><br>This data includes both confirmed and presumptive positive cases of COVID-19 reported to CDC or tested at CDC since January 21, 2020, with the exception of testing results for persons repatriated to the United States from Wuhan, China and Japan. State and local public health departments are now testing and publicly reporting their cases. In the event of a discrepancy between CDC cases and cases reported by state and local public health officials, data reported by states should be considered the most up to date.</p><br><br>
-    <a href = "javascript:closeSlide();"><i class="fas fa-times"></i></a>
+    <p>CDC is responding to an outbreak of respiratory illness caused by a novel (new) coronavirus. The outbreak first started in Wuhan, China, but cases have been identified in a growing number of other locations internationally, including the
+      United States. In addition to CDC, many public health laboratories are now testing for the virus that causes COVID-19.<br><br>This data includes both confirmed and presumptive positive cases of COVID-19 reported to CDC or tested at CDC since
+      January 21, 2020, with the exception of testing results for persons repatriated to the United States from Wuhan, China and Japan. State and local public health departments are now testing and publicly reporting their cases. In the event of a
+      discrepancy between CDC cases and cases reported by state and local public health officials, data reported by states should be considered the most up to date.</p><br><br>
+    <a href="javascript:closeSlide();"><i class="fas fa-times"></i></a>
   </div>
   <div class="navbar">
-    <a href = "javascript:slide();" class = "info"><i class="fas fa-exclamation-circle"></i></a>
+    <a href="javascript:slide();" class="info"><i class="fas fa-exclamation-circle"></i></a>
     <h1 class="nav-header">COVID-19 Tracker Dashboard</h1>
   </div>
   <div class="main-container">
     <div class="cases box">
       <div class="box-container">
-        <p class="num">Total cases in the United States:<br></p>
-        <span id="totalCases"></span>
-        <br><br><br>
-        <p class="num">Deaths in the United States:<br></p>
-        <span id="deaths"></span>
-        <br><br><br>
-        <p class="num">Estimated Moratality Rate:<br></p>
-        <span id="percentage"></span>
+          <p class="num">Total cases in the United States:<br></p>
+          <span id="totalCases"></span>
+          <br><br><br>
+          <p class="num">Deaths in the United States:<br></p>
+          <span id="deaths"></span>
+          <br><br><br>
+          <p class="num">Estimated US Moratality Rate:<br></p>
+          <span id="percentage"></span>
       </div>
     </div>
     <div class="box">
-      <div class = "box-container">
-      <canvas id="doughnut-chart"></canvas>
+      <div class="box-container">
+        <canvas id="doughnut-chart"></canvas>
       </div>
     </div>
-    <span class = "credits">Made with <a target = "_blank" href = "https://chartjs.org">ChartJS</a>, <a target = "_blank" href = "https://jquery.com/">jQuery</a>, and data from the <a target = "_blank" href = "https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">CDC</a> by <a target = "_self" href = "https://micahlindley.com/">Micah Lindley</a></span>
+    <span class="credits">Made with <a target="_blank" href="https://chartjs.org">ChartJS</a>, <a target="_blank" href="https://jquery.com/">jQuery</a>, and data from the <a target="_blank"
+        href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">CDC</a> by <a target="_self" href="https://micahlindley.com/">Micah Lindley</a></span>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
