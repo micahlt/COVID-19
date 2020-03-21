@@ -32,13 +32,13 @@ h1 {
 .box {
   height: 75vh;
   width: 45vw;
-  box-shadow: rgba(0,0,0,0.3) 0 0 25px;
   margin-left: 5vw;
   margin-right: 5vw;
-  border-radius: 20px;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow:  22px 22px 44px #cccccc,
-             -22px -22px 44px #ffffff;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(0,0,0,0.075), rgba(255,255,255,0.25));
+  /* background: linear-gradient(145deg, #ffffff, #e6e6e6); */
+  box-shadow:  8px 8px 16px #d9d9d9,
+               -8px -8px 16px #ffffff;
 }
 
 .main-container {
@@ -87,7 +87,14 @@ h1 {
   color: white;
   position: absolute;
   left: 3vw;
-  top: 1.4em;
+  top: 0.5em;
+  padding: 12px;
+  margin: 0px;
+  font-size: 20px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #6b9ffe, #5a86d5);
+  box-shadow:  5px 5px 11px #557fc9,
+             -5px -5px 11px #73abff;
 }
 
 .slide-out{
@@ -117,7 +124,27 @@ h2 {
   transition: left 0.8s;
 }
 
+
 .slide-out a {
+  padding: 15px;
   color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 30px;
   height: 30px;
+  background: linear-gradient(145deg, #ff8856, #e67248);
+  box-shadow: 6px 6px 12px #db6d45, -6px -6px 12px #ff915b;
+  width: fit-content;
+}
+
+.slide-out a:hover {
+  background: #ff7f50;
+  box-shadow: inset 6px 6px 12px #db6d45,
+            inset -6px -6px 12px #ff915b;
+}
+
+.info:hover {
+  background: #6495ed;
+  box-shadow: inset 15px 15px 30px #557fc9,
+            inset -15px -15px 30px #73abff;
 }
