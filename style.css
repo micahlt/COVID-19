@@ -148,3 +148,9 @@ h2 {
   box-shadow: inset 15px 15px 30px #557fc9,
             inset -15px -15px 30px #73abff;
 }
+
+@media screen and (max-width < 600px) {
+  .main-container {
+     flex-direction: column;
+  }
+}
