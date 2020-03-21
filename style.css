@@ -149,7 +149,7 @@ h2 {
             inset -15px -15px 30px #73abff;
 }
 
-@media screen and (max-width < 600px) {
+@media only screen and (max-width: 600px) {
   .main-container {
      flex-direction: column;
   }
