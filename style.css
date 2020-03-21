@@ -107,7 +107,7 @@ h1 {
   height: 100vh;
   z-index: 1;
   box-shadow: rgba(0,0,0,0.5) 0 0 15px;
-  transition: left 1s;
+  transition: left 0.4s ease-in;
 }
 
 h2 {
@@ -121,7 +121,7 @@ h2 {
 
 .slidden {
   left: 0;
-  transition: left 0.8s;
+  transition: left 0.78s ease-in-out;
 }
 
 
